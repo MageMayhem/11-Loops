@@ -1,18 +1,24 @@
-// C# Loop three programs 11 times
-using System
-namespace Loops
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace pg3_Foster
 {
-  class Boolean
-  {
-    public static void Main
+    class Program
     {
-      for (int i = 0; < 11; i++)
-      {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 10; i++) {
+        
         Console.WriteLine("Value of i:[]", i);
         Console.WriteLine("Boolean");
         Console.WriteLine("float");
-        Console.WriteLine("signed integral")
+        Console.WriteLine("signed integral");
+       
+        
        }
      }  
    }
- }   
+ }
